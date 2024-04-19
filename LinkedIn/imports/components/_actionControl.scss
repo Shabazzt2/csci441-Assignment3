@@ -1,0 +1,35 @@
+
+.action-control {
+  color: navy;
+  background-color: peachpuff;
+  border: 2px solid darkgray;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 10px; // Consider using rem for consistency with other styles
+  padding: 0.75rem; // Standardizing to rem for better scaling across devices
+  outline: none;
+  transition: background-color 0.3s ease, transform 0.2s ease; // Added transform transition for consistency
+
+  // Enhanced pseudo-classes for better accessibility and visual effect
+  &:hover, &:focus {
+    background-color: coral;
+    color: white;
+    outline: 2px solid coral; // Adding an outline on focus for better accessibility
+  }
+  &:active {
+    background-color: ivory;
+    transform: scale(1.05); // Subtle transformation to avoid disorienting the user
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1); // Adding shadow for a "pressed" effect
+  }
+}
+
+// Modifier with additional aesthetic changes
+.action-control--circle {
+  border-radius: 50%;
+  height: 50px; // Consider using rem for consistent scaling
+  width: 50px; // Same as above
+  padding: 0; // Adjusting padding to avoid distortion of circular shape
+  display: flex;
+  justify-content: center;
+  align-items: center; // Centering content within the circle for icons or text
+}

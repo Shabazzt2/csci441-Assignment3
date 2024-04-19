@@ -1,0 +1,43 @@
+// Custom Styling: Unique Component
+// Embracing BEM methodology for clear organization.
+
+// Block: Core building unit of our component structure.
+// Each segment in our interface forms a block.
+
+// Element: Interior elements nested within specific blocks.
+// For example, a title block may contain an author element.
+
+// Modifier: Tweaks the behavior or visual aspects of blocks or elements.
+
+// BEM Guidelines:
+// 1. Employ classes exclusively for styling.
+// 2. Adhere to the structure: .block-name__element-name or .block-name--modifier.
+
+// Styling for a distinct component instance.
+.individual-component {
+    background-color: cornsilk;
+    border: 2px dashed darkblue;
+    margin-top: 1rem;
+    padding: 1.5rem;
+  
+    // Customization: Introduce modifiers for various positions.
+    &--position-1 {
+      background-color: lightcoral;
+    }
+    &--position-2 {
+      background-color: lightsteelblue;
+    }
+    &--position-3 {
+      background-color: lightgreen;
+    }
+  
+    // Sub-element: Message contained within the component.
+    &__message {
+      color: darkolivegreen;
+      font-size: 1.2rem;
+      font-style: normal;
+      font-weight: 400;
+      text-align: center;
+    }
+  }
+  

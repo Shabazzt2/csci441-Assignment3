@@ -1,0 +1,14 @@
+.page-end {
+  color: #e8e8e8; // Fine-tuning the shade of white for improved readability
+  font-size: 0.95rem; // Adjusting font size for better visual hierarchy
+  text-align: center; // Centralizing footer text to balance the increased width
+}
+
+.page-end-container {
+  margin: 0 auto;
+  max-width: 65rem; // Expanding width slightly more to 650px
+  padding: 1.5rem; // Increasing padding for enhanced visual comfort
+  background-color: #2a2a2a; // Darkening the shade of gray for more elegance
+  border-top: 3px solid #555; // Adding a subtle top border for stylistic separation
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); // Adding a shadow for depth
+}

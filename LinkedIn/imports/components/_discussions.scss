@@ -1,0 +1,33 @@
+.discussion {
+  display: flex;
+  justify-content: space-between; // Efficient use of space, aligning items on either end
+  padding: 0.8rem; // Adds padding for better visual separation from other elements
+  background-color: #f4f4f4; // Light background to distinguish discussions from the page background
+  border-radius: 8px; // Softens edges for a more modern look
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); // Subtle shadow for depth
+}
+
+.discussion__header {
+  font-weight: bold;
+  font-size: 1.25rem; // Using rem for scalability across devices
+  color: #0056b3; // Using a thematic color that matches your site's color scheme
+  flex-basis: 60%; // Allocates 60% of the flex container width to the header
+}
+
+.discussion__details {
+  font-size: 1rem; // Standardizing font sizes across the application
+  font-style: normal;
+  color: #4a4a4a; // Softened color for ease of reading
+  flex-basis: 30%; // Clearly allocates space within the flex container
+  padding: 0.2rem 0; // Vertical padding for text alignment
+}
+
+.discussion__interactions {
+  display: flex;
+  justify-content: flex-end; // Aligns interaction buttons or elements to the right
+  align-items: center; // Vertically aligns items in this container to the center
+  flex-basis: 10%; // Maintains a consistent size for interaction icons or links
+  gap: 10px; // Adds space between interactive elements
+}
+
+  

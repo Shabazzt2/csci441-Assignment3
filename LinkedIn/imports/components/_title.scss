@@ -1,0 +1,15 @@
+.title-wrapper {
+    color: navy;
+  }
+  // customized
+  
+  // Using BEM, create a special moderator component for usage in Title.js
+  // Set font size to 10 px using rem and font-weight to 400
+  // Apply this style to imports/ui/Title.js <p>moderator:
+  
+  // Start with the block name in BEM, then __element
+  .title-wrapper__moderator {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  

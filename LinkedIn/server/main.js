@@ -1,5 +1,4 @@
 import { Meteor } from 'meteor/meteor';
+import { DiscussionPostsCollectionAccess } from './../imports/api/discussion_posts.js'; // Adjusted import
 
-Meteor.startup(() => {
-  // code to run on server at startup
-});
+import { discussionCommentsCollectionAccess } from './../imports/api/discussion_comments.js'; // Adjusted import

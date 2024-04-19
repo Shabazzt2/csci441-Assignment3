@@ -1,0 +1,41 @@
+// Customized variables
+$peachy: #FFA07A; // Peachy color
+$skyblue: #87CEEB; // Sky blue color
+$livelygreen: #90EE90; // Lively green color
+
+// Further lightening the colors
+$peachy: lighten($peachy, 20%);
+$skyblue: lighten($skyblue, 15%);
+$livelygreen: lighten($livelygreen, 20%);
+
+* { // Resetting margins and paddings
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%; // Setting base font size to 10px
+}
+
+body {
+  background-color: #A9A9A9; // Dark gray background
+  font-size: 1.6rem;
+  font-family: "Arial", sans-serif; // Font family
+}
+
+input, button, select {
+  font-size: 1.4rem;
+}
+
+h1 { // Styling h1 elements
+  font-weight: 300;
+  font-size: 2.4rem; // Setting h1 font size
+}
+
+@import './components/_title.scss';
+@import './components/_actionControl.scss';
+@import './components/_discussions.scss';
+@import './components/_individualComponent.scss';
+@import './components/_layout.scss';
+@import './components/_pageEnd.scss';
+@import './components/_style.scss';

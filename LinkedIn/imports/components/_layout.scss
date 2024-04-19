@@ -1,0 +1,22 @@
+.layout-form {
+  display: flex;
+  flex-direction: column; // Emphasizing vertical alignment for better mobile responsiveness
+  gap: 1rem; // Adds space between form elements without using margin
+  padding: 1rem; // Adding padding around the form for overall spacing
+  background-color: #f5f5f5; // A light background to distinguish the form area
+}
+
+.layout-input {
+  border: 2px solid #ccc; // Using a lighter shade for a softer look
+  padding: 1rem 1.2rem; // Adjusting padding for better text visibility
+  width: calc(100% - 2.4rem); // Adjust width to account for padding
+  margin-bottom: 0.5rem; // Space below each input
+  transition: border-color 0.3s ease; // Smooth transition for border color on focus
+
+  &:focus {
+      border-color: #007bff; // Highlighting focused input with a different color
+      box-shadow: 0 0 0 3px rgba(0,123,255,0.25); // Adding a subtle shadow around the input when focused
+  }
+}
+
+  
